@@ -5,7 +5,7 @@ from pydub import AudioSegment, effects
 import glob
 
 #IMPORTANT - UPDATE VARIABELE WITH PATH TO FFMPEG EXECUTABLE
-AudioSegment.converter = "/opt/homebrew/bin/ffmpeg"
+AudioSegment.converter = ""
 
 #Define variables
 #Change this to where you prefer files to be exported to
