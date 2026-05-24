@@ -18,5 +18,5 @@ After downloading the python file, update the `AudioSegment.converter` on line 8
 2. Provide a valid YouTube playlist link (YT Music links also supported).
 3. Wait until the process is finished. Once completed, you will be able to find the mp3 files as well as the normalized mp3 files in the folder you named.
 
-## Potential Issues
-YouTube is known to frequently throw 403 errors when using automated processes to download videos. You will most likely get a 403 after repeated use of this program. To circumvent this, you can try to pass a cookies.txt file in the `ydl_opts' arguments. I've also had luck in the past using VPNs to change IPs. If all else fails you'll have to wait until it works again.
+## Avoiding 403 Forbidden/Cookie Errors
+YouTube is known to frequently throw 403 errors when using automated processes to download videos. You will most likely get a 403 after repeated use of this program. To circumvent this, you can export a cookies file from a web browser and point to it in the `ydl_opts` arguments on line 29. 

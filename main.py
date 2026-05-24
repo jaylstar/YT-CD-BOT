@@ -24,7 +24,10 @@ ydl_opts = {
     'sleep_interval': 1.5,
     'max_sleep_interval': 4,
     'ignoreerrors': True,
-    #'cookiefile': '/Users/elliothodges/Documents/cookies.txt',
+
+    #Uncomment the following line to use a cookie file. Reccomended to avoid 403 errors
+    #'cookiefile': './cookies.txt'
+
     # ℹ️ See help(yt_dlp.postprocessor) for a list of available Postprocessors and their arguments
     'postprocessors': [{  # Extract audio using ffmpeg
         'key': 'FFmpegExtractAudio',
