@@ -4,7 +4,7 @@ import os
 from pydub import AudioSegment, effects
 import glob
 
-#IMPORTANT - UPDATE VARIABELE WITH PATH TO FFMPEG EXECUTABLE
+#IMPORTANT - UPDATE VARIABLE WITH PATH TO FFMPEG EXECUTABLE
 AudioSegment.converter = ""
 
 #Define variables
